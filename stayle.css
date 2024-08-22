@@ -1,0 +1,39 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.box{
+
+   display: block;
+
+   .img{
+      width: 400px;
+   }
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+   transition: 1s;
+   
+}
+.black{
+   background-color: black;
+}
+
+
+.hidden {
+   opacity: 0;
+}
+.red{
+   color: red;
+}
+.img{
+   transition: 1s;
+}
+p{
+   transition: 1s;
+}
